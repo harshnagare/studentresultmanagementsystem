@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background-image:url(images/aa.jpg); 	
+	background-repeat: no-repeat;
+	margin:0px;
+overflow-y: hidden;
+
+}
+
+
+
+.head
+{
+	font-family:"Trebuchet MS";
+	font-size:40px;
+	color:#fa0000;
+	margin-left:50px;
+
+}
+
+.hr
+{
+	width:80%;
+	height:5px;
+	border-radius:100px;
+	background-color:#000000;
+}
+
+.subhead
+{
+	font-family:"Segoe UI";
+	color:rgb(0, 0, 0);
+	font-size:24px;
+	text-decoration:underline;
+}
+
+
+.labels
+{
+	font-family:"Segoe UI";
+	color:#ff0000;
+	font-size:16px;
+	font-style:italic;
+}
+
+.fields
+{
+	font-family:"Segoe UI";
+	font-size:14px;
+	padding:2px 5px;
+	color:rgb(251, 10, 10);
+	background-color:transparent;
+	border:1px solid #000000;
+	border-radius:5px;
+}
+.design
+{
+	background-color:transparent;
+	border:1px solid #000000;
+	border-radius:5px;
+	padding:10px 10px;
+	box-shadow:0px 0px 40px #008cff;
+	width: 300px;
+
+}
+	
+a.link:link{text-decoration:none;font-family:"Trebuchet MS";font-size:14px;color:#ff0000; background-color:black;
+	border:1px solid #000000;
+	border-radius:5px;
+	padding:10px 10px;}
+a.link:active{text-decoration:none;font-family:"Trebuchet MS";font-size:14px;color:#ff0303;}
+a.link:visited{text-decoration:none;font-family:"Trebuchet MS";font-size:14px;color:#28a3a6;}
+a.link:hover{text-decoration:none;font-family:"Trebuchet MS";font-size:15px;color:#FFFFFF;}
+
+.msg
+{
+	font-family:"Segoe UI";
+	font-size:14px;
+	color:rgb(249, 16, 16);
+}
+
+a.cmd:link{text-decoration:none;font-family:"Trebuchet MS";font-size:15px;color:#ff4d00;padding:5px 6px;background-color:transparent;border:1px solid rgb(238, 29, 29);}
+a.cmd:active{text-decoration:none;font-family:"Trebuchet MS";font-size:15px;color:#28a3a6;padding:5px 6px;background-color:transparent;border:1px solid #066;}
+a.cmd:visited{text-decoration:none;font-family:"Trebuchet MS";font-size:15px;color:#28a3a6;padding:5px 6px;background-color:transparent;border:1px solid #066;}
+a.cmd:hover{text-decoration:none;font-family:"Trebuchet MS";font-size:15px;color:#FFFFFF;padding:5px 6px;background-color:transparent;border:1px solid #066;box-shadow:0px 0px 10px rgb(3, 7, 7);}
